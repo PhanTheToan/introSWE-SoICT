@@ -1,0 +1,74 @@
+.slide_ankerpaine{
+
+    -fx-background-color: #f4b49d; /* Gradient vàng gold */
+    -fx-background-size: cover;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.slide_ankerpaine FontAwesomeIconView{
+    -fx-fill: #FFFFFF;
+}
+.inner_paine{
+    -fx-background-color: #fffbfa;
+    -fx-border-width:2px 2px 2px 2px;
+    -fx-border-radius: 10px;
+    -fx-border-background: #FFFF;
+}
+
+.btn_an{
+    -fx-background-color: transparent;
+
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.7em;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+    -fx-white-space: pre-wrap;
+
+}
+
+.btn_an:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #fffbfa;
+        -fx-text-fill: #f86889;
+    -fx-font-size: 1.9em;
+}
+.btn_an:pressed{
+    -fx-background-color: #fffbfa;
+    -fx-text-fill: #000000;
+}
+
+.btn_an:focused {
+    -fx-background-color: #fffbfa;
+        -fx-text-fill: #000000;
+
+}
+
+.logoutBtn {
+    -fx-alignment: center;
+    -fx-spacing: 15;
+}
+
+.logoutBtn Label {
+    -fx-font-size: 1.8em;
+    -fx-font-weight: bold;
+}
+
+.logoutBtn Label:hover {
+    -fx-font-size: 2em;
+}
+
+.logoutBtn:hover {
+    -fx-cursor: hand;
+    -fx-background-color: rgba(146, 150, 156, 0.5);
+}
+
+.logoutBtn:pressed {
+    -fx-background-color: #98adb3;
+}
+
+
+
+
+
